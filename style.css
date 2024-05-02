@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
-
 :root{
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
@@ -56,12 +55,13 @@ body{
 .botoes{
     display: block;
 }
- .botao.ativo{
-     background-color: var(--botao-ativo);
-     border-bottom: 4px solid var(--verde);
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
- 
-.abas-texto{
+
+.abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
@@ -96,6 +96,7 @@ body{
     padding: 0 16px;
     text-align: center;
     min-width: 100px;
+    
 }
 
 .contador-digito-numero{
@@ -108,7 +109,7 @@ body{
     font-size: 20px;
     margin: 0;
 }
-
+ 
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
